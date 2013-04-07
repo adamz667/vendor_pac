@@ -29,7 +29,7 @@
     },
     {
         "remote":       "github",
-        "account":      "cm42semc",
+        "account":      "arco",
         "repository":   "android_hardware_qcom_display-legacy",
         "target_path":  "hardware/qcom/display-legacy",
         "revision":     "cm-10.1"
@@ -40,12 +40,5 @@
         "repository":   "android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7",
         "target_path":  "prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7",
         "revision":     "master"
-    },
-    {
-        "remote":       "github",
-        "account":      "cm42semc",
-        "repository":   "android_device_common",
-        "target_path":  "device/common",
-        "revision":     "cm-10.1"
     }
 ]
