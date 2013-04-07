@@ -58,6 +58,7 @@ add_lunch_combo pac_tass-userdebug
 add_lunch_combo pac_p990-userdebug
 add_lunch_combo pac_p920-userdebug
 add_lunch_combo pac_p970-userdebug
+add_lunch_combo pac_p760-userdebug
 # HTC One V
 add_lunch_combo pac_primoc-userdebug
 add_lunch_combo pac_primou-userdebug
