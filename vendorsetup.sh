@@ -66,3 +66,7 @@ add_lunch_combo pac_p760-userdebug
 # HTC One V
 add_lunch_combo pac_primoc-userdebug
 add_lunch_combo pac_primou-userdebug
+# LGE iproj
+add_lunch_combo pac_p930-userdebug
+add_lunch_combo pac_su640-userdebug
+add_lunch_combo pac_vs920-userdebug

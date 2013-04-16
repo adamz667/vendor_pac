@@ -2,7 +2,7 @@
 ifeq (pac_mako,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_xhdpi
+OVERLAY_TARGET := pa_nav_xhdpi
 
 # AOKP device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/mako
@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
-# include ParanoidAndroid common configuration
+# include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
