@@ -6,7 +6,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Copy specific ROM files
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/apk/GooManager.apk:system/app/GooManager.apk 
+    vendor/pac/prebuilt/common/apk/GooManager.apk:system/app/GooManager.apk \
+    vendor/pac/prebuilt/common/apk/ParanoidPreferences.apk:system/app/ParanoidPreferences.apk \
+    vendor/pac/prebuilt/common/apk/ParanoidWallpapers.apk:system/app/ParanoidWallpapers.apk
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -51,7 +53,6 @@ endif
 
 # ParanoidAndroid Proprietary
 PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/common/apk/ParanoidPreferences.apk:system/app/ParanoidPreferences.apk \
     vendor/pac/prebuilt/pa/$(PA_CONF_SOURCE).conf:system/etc/paranoid/properties.conf \
     vendor/pac/prebuilt/pa/$(PA_CONF_SOURCE).conf:system/etc/paranoid/backup.conf
 
