@@ -1,5 +1,6 @@
 # Xperia 2013
 add_lunch_combo pac_yuga-userdebug
+add_lunch_combo pac_odin-userdebug
 # Xperia 2011
 add_lunch_combo pac_anzu-userdebug
 add_lunch_combo pac_mango-userdebug
@@ -12,6 +13,7 @@ add_lunch_combo pac_zeus-userdebug
 # Samsung 2011
 add_lunch_combo pac_captivatemtd-userdebug
 add_lunch_combo pac_fascinatemtd-userdebug
+add_lunch_combo pac_galaxysmtd-userdebug
 add_lunch_combo pac_i9100-userdebug
 add_lunch_combo pac_i9103-userdebug
 add_lunch_combo pac_i9100g-userdebug
@@ -25,8 +27,10 @@ add_lunch_combo pac_p5110-userdebug
 add_lunch_combo pac_p3100-userdebug
 add_lunch_combo pac_p3110-userdebug
 # Nexus Devices
+add_lunch_combo pac_toro-userdebug
 add_lunch_combo pac_mako-userdebug
 add_lunch_combo pac_maguro-userdebug
+add_lunch_combo pac_manta-userdebug
 add_lunch_combo pac_crespo-userdebug
 add_lunch_combo pac_grouper-userdebug
 add_lunch_combo pac_tilapia-userdebug
@@ -51,14 +55,18 @@ add_lunch_combo pac_d2tmo-userdebug
 add_lunch_combo pac_d2att-userdebug
 add_lunch_combo pac_d2vzw-userdebug
 add_lunch_combo pac_i605-userdebug
+add_lunch_combo pac_i9300-userdebug
 add_lunch_combo pac_l900-userdebug
 add_lunch_combo pac_t0lte-userdebug
+add_lunch_combo pac_n7000-userdebug
 add_lunch_combo pac_n7100-userdebug
+add_lunch_combo pac_venturi_usa-userdebug
 # Samsung & LGE Legacy Devices
 add_lunch_combo pac_gio-userdebug
 add_lunch_combo pac_cooper-userdebug
 add_lunch_combo pac_p500-userdebug
 add_lunch_combo pac_tass-userdebug
+add_lunch_combo pac_beni-userdebug
 add_lunch_combo pac_p990-userdebug
 add_lunch_combo pac_p920-userdebug
 add_lunch_combo pac_p970-userdebug
@@ -70,3 +78,11 @@ add_lunch_combo pac_primou-userdebug
 add_lunch_combo pac_p930-userdebug
 add_lunch_combo pac_su640-userdebug
 add_lunch_combo pac_vs920-userdebug
+# Motorola 2013
+add_lunch_combo pac_vanquish-userdebug
+add_lunch_combo pac_spyder-userdebug
+add_lunch_combo pac_targa-userdebug
+add_lunch_combo pac_maserati-userdebug
+add_lunch_combo pac_umts_spyder-userdebug
+add_lunch_combo pac_solana-userdebug
+add_lunch_combo pac_vanquishgsm-userdebug
