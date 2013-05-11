@@ -19,6 +19,7 @@
 
 <manifest>
   <!-- Tier 1 devices -->
+  <!-- DO NOT ADD NEW DEVICES HERE! -->
   <device name="d2att" priority="100" />
   <device name="d2spr" priority="100" />
   <device name="d2tmo" priority="100" />
@@ -29,13 +30,21 @@
   <device name="maguro" priority="100" />
 
   <!-- Tier 2 devices -->
+  <!-- Add new devices here -->
+  <device name="anzu" priority="10" />
   <device name="coconut" priority="10" />
+  <device name="galaxysmtd" priority="10" />
   <device name="grouper" priority="10" />
+  <device name="haida" priority="10" />
+  <device name="hallon" priority="10" />
+  <device name="hercules" priority="10" />  
+  <device name="iyokan" priority="10" />
   <device name="mako" priority="10" />
   <device name="mango" priority="10" />
   <device name="manta" priority="10" />
   <device name="n7100" priority="10" />
   <device name="p930" priority="10" />
+  <device name="p990" priority="10" />
   <device name="satsuma" priority="10" />
   <device name="skyrocket" priority="10" />
   <device name="smultron" priority="10" />
