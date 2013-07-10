@@ -6,8 +6,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Copy specific ROM files
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/apk/GooManager.apk:system/app/GooManager.apk \
-    vendor/pac/prebuilt/common/apk/RomStats.apk:system/app/RomStats.apk
+    vendor/pac/prebuilt/common/apk/PACStats.apk:system/app/PACStats.apk
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -17,9 +16,6 @@ PRODUCT_COPY_FILES += \
 
 # T-Mobile theme engine
 include vendor/pa/config/themes_common.mk
-
-# Embed SuperUser in Settings
-SUPERUSER_EMBEDDED := true
 
 # PAC Packages
 PRODUCT_PACKAGES += \
@@ -106,7 +102,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # ROMStats Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.romstats.url=http://stats.pac-rom.com \
-    ro.romstats.name=PacMan \
-    ro.romstats.version=$(PAC_VERSION) \
-    ro.romstats.tframe=1
+    ro.pacstats.url=http://stats.pac-rom.com \
+    ro.pacstats.name=PAC-man \
+    ro.pacstats.version=$(PAC_VERSION) \
+    ro.pacstats.tframe=1
